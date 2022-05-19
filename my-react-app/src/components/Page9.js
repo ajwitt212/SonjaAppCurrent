@@ -14,13 +14,13 @@ const Button = styled.button`
 function Page9() {
     return (
       <div className="Page7">
-        <h1>
+        <h1 className="header">
         The Answer
         </h1>
-        <h3>
+        <h3 className="header2">
         May 19 2022
         </h3>
-        <p>
+        <p className="paragraph" id="question">
         Will you go to prom with me?
         </p>
         <div 
@@ -31,8 +31,8 @@ function Page9() {
           }}
         >
         <a href="http://localhost:3000/page1" target="_blank">
-        <Button> Yes </Button>
-        <Button> No </Button>
+        <button className="button"> Yes </button>
+        <button className="button"> Also yes </button>
         </a>
         </div>
       </div>
